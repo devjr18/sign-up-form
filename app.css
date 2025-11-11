@@ -1,0 +1,142 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(./Norse-Bold.otf);
+}
+
+:root {
+    background-color: #F9FAFB;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid #000;
+}
+
+.img-sidebar {
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .img-sidebar > .odin-logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);;
+}
+.container > .img-sidebar > .odin-logo-img img{
+    height: 100%;
+}
+.container > .img-sidebar > .odin-logo-img span{
+    font-family: Norse-Bold;
+    color: #fff;
+    font-size: 4rem;
+}
+
+#unsplash {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+#unsplash, #unsplash > a {
+    color: #fff;
+}
+.form-container {
+    display: flex;
+    align-items: center;
+}
+
+.form-container > .all-forms > p {
+    padding: 0 0 20px 50px;
+    position: absolute;
+    top: 100px;
+}
+
+.form-container > .all-forms > .parag2 {
+    padding: 50px;
+}
+
+.forms {
+    height: 200px;
+    width: auto;
+    background-color: #fff;
+    padding: 0 50px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.forms > p {
+    padding: 10px 0 0 0;
+}
+
+.forms > form {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-size: 10px;
+}
+
+.second-row {
+    padding-left: 50px;
+}
+
+input{
+   padding: 2px;
+   display: inline-block;
+}
+
+input[type="text"]:valid:focus   {
+    outline: none;
+    border: 2px solid blue;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="password"]:valid{
+    outline: none;
+    border: 2px solid red;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#create_account {
+    position: absolute;
+    top: 31rem;
+}
+
+#create_account p{
+    margin-top: 1rem;
+}
+
+#create_account p > span{
+    color: #596D48;
+    font-weight: 800;
+}
+
+#create_account > input {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color: #596D48;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
